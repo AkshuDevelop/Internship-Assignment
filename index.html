@@ -1,27 +1,483 @@
-<html>
+<!doctype html>
+<html lang="en">
     <head>
-        <title>Institute of Digital Risk</title>
-        <link rel="stylesheet" href="styles.css" />
-        <script src="script.js"></script>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <meta charset="utf-8" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <title>IDR | Institute of Digital Risk - Premium Academy</title>
         <link
-            href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700&display=swap"
             rel="stylesheet"
         />
+        <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
-        <!--Header-->
-        <header>
-            <h1>Institute of Digital Risk</h1>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+        <!-- ============================================================
+             NAVIGATION
+        ============================================================ -->
+        <nav class="site-nav" data-purpose="floating-nav">
+            <div class="nav-inner glass-nav">
+                <div class="nav-logo">
+                    <div class="nav-logo-icon font-display">IDR</div>
+                    <span class="nav-logo-text font-display">INSTITUTE</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#">Academy</a>
+                    <a href="#">Certifications</a>
+                    <a href="#">Insights</a>
+                    <a href="#">Enterprise</a>
+                </div>
+                <div class="nav-actions">
+                    <button class="btn-login">Login</button>
+                    <button class="btn-join">Join Academy</button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- ============================================================
+             HERO SECTION (dark)
+        ============================================================ -->
+        <section class="hero" data-purpose="hero-area">
+            <div class="hero-ambient"></div>
+
+            <div class="hero-content">
+                <span class="hero-badge"
+                    >The Gold Standard in Digital Governance</span
+                >
+
+                <h1 class="hero-headline shimmer-text font-display">
+                    Master the Art of <br />
+                    Digital Resilience.
+                </h1>
+
+                <p class="hero-sub">
+                    A premium learning ecosystem designed for the next
+                    generation of risk leaders. Expert-led, industry-certified,
+                    and globally recognized.
+                </p>
+
+                <div class="hero-ctas">
+                    <a class="btn-primary" href="#">
+                        <span>Explore Programs</span>
+                        <div class="btn-primary-overlay"></div>
+                    </a>
+                    <a class="btn-secondary" href="#">Watch Preview</a>
+                </div>
+            </div>
+
+            <!-- Floating Decorative Card – Left -->
+            <div class="deco-card-left">
+                <div class="premium-card">
+                    <div class="deco-img-placeholder"></div>
+                    <div class="deco-line" style="width: 66%"></div>
+                    <div class="deco-line" style="width: 50%"></div>
+                </div>
+            </div>
+
+            <!-- Floating Decorative Card – Right -->
+            <div class="deco-card-right">
+                <div class="premium-card">
+                    <div class="deco-avatar-row">
+                        <div class="deco-avatar"></div>
+                        <div class="deco-avatar-line"></div>
+                    </div>
+                    <div class="deco-block"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================
+             SECOND HERO / MAIN SECTION (light)
+        ============================================================ -->
+        <main class="main-hero" data-purpose="hero-section">
+            <div class="main-hero-blob-1"></div>
+            <div class="main-hero-blob-2"></div>
+
+            <div class="main-hero-grid">
+                <!-- Content -->
+                <div data-purpose="hero-content">
+                    <span class="main-hero-badge">Global Risk Leadership</span>
+
+                    <h1 class="main-hero-headline">
+                        Navigate the
+                        <span class="highlight">Digital Frontier.</span>
+                    </h1>
+
+                    <p class="main-hero-sub">
+                        Empowering professionals with enterprise-grade expertise
+                        in AI Governance, Cybersecurity Risk, and Digital
+                        Resilience.
+                    </p>
+
+                    <div class="main-hero-btns">
+                        <button class="btn-blue">View Certifications</button>
+                        <button class="btn-white">Explore Research</button>
+                    </div>
+                </div>
+
+                <!-- Visual -->
+                <div class="hero-visual" data-purpose="hero-visual">
+                    <div class="hero-visual-card">
+                        <img
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuAeW0Al15LHD_xwSyUgHdcFQRnv2OieqgavzwUEoU_04k2YQUY92OpqefzNXWTHwiGkAKHO27QVJNIqa2rQbop9SK3xBJaXLs_Bd6vvLii5OLW5SJx2apGL9fqNWEXqtF2AXCwwUVGzjA1neyY2mQj8GxEOeVKoD4JjtfsXjBkvTcV3SD-KTQvr5ioE-a0qTUlpAFGk9T7eUdqG2vL69J6M0U-NSE_2wxhuqK-lTVwNoVNw01_69gssPuh_H_IC1ZGH9TDjFd2hfPU"
+                            alt="IDR Dashboard"
+                        />
+                    </div>
+
+                    <div class="hero-visual-float">
+                        <div class="float-card-row">
+                            <div class="float-icon">
+                                <svg
+                                    fill="none"
+                                    stroke="#16a34a"
+                                    viewBox="0 0 24 24"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                >
+                                    <path
+                                        d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                                    />
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="float-label">Risk Assessment</p>
+                                <p class="float-sublabel">
+                                    Completed Successfully
+                                </p>
+                            </div>
+                        </div>
+                        <div class="float-progress-track">
+                            <div class="float-progress-bar"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- ============================================================
+             FEATURES GRID
+        ============================================================ -->
+        <section class="features" data-purpose="features-grid">
+            <div class="features-grid">
+                <!-- Primary large card -->
+                <div
+                    class="premium-card feat-primary"
+                    data-purpose="primary-feature"
+                >
+                    <div class="feat-number font-display">01</div>
+                    <div class="feat-primary-bg"></div>
+                    <div class="feat-primary-content">
+                        <h3 class="feat-title font-display">
+                            Risk Architecture Certification
+                        </h3>
+                        <p class="feat-desc">
+                            The comprehensive framework for managing digital
+                            complexity in Fortune 500 environments.
+                        </p>
+                        <div class="feat-link-row">
+                            <span class="feat-link-line"></span>
+                            <a href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Secondary card 1 -->
+                <div
+                    class="premium-card feat-secondary"
+                    data-purpose="secondary-feature"
+                >
+                    <div class="feat-icon feat-icon--orange">
+                        <svg
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        >
+                            <path d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                    </div>
+                    <h3 class="feat-title--sm font-display">Real-time Labs</h3>
+                    <p class="feat-desc--sm">
+                        Interactive sandboxes mimicking high-pressure digital
+                        crisis scenarios.
+                    </p>
+                </div>
+
+                <!-- Secondary card 2 -->
+                <div
+                    class="premium-card feat-secondary"
+                    data-purpose="secondary-feature"
+                >
+                    <div class="feat-icon feat-icon--zinc">
+                        <svg
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        >
+                            <path
+                                d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09A10.003 10.003 0 0012 3v1m0 16v1m0-1c-1.057 0-2.06-.131-3.022-.375m0-14.03a10.003 10.003 0 0115.457 1.106m-1.457 7.04c-.473 1.938-1.571 3.61-3.022 4.76m0 0a10.003 10.003 0 01-15.457-1.106m1.457-7.04c.473-1.938 1.571-3.61 3.022-4.76"
+                            />
+                        </svg>
+                    </div>
+                    <h3 class="feat-title--sm font-display">
+                        Expert Mentorship
+                    </h3>
+                    <p class="feat-desc--sm">
+                        Direct 1-on-1 access to industry leaders from top global
+                        institutions.
+                    </p>
+                </div>
+
+                <!-- Tertiary wide card -->
+                <div
+                    class="premium-card feat-tertiary"
+                    data-purpose="tertiary-feature"
+                >
+                    <div class="feat-thumb">
+                        <div class="feat-thumb-inner">
+                            <img src="Assets/Corporate.jpg" />
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="feat-title--sm font-display">
+                            Corporate Training
+                        </h3>
+                        <p class="feat-desc--sm" style="max-width: 512px">
+                            Bespoke risk management curricula tailored to your
+                            organization's unique digital footprint.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================
+             SLIDING INSIGHTS
+        ============================================================ -->
+        <section class="insights" data-purpose="horizontal-carousel">
+            <div class="insights-header">
+                <div>
+                    <h2 class="font-display">Latest Insights</h2>
+                    <p>Thought leadership from the IDR research lab.</p>
+                </div>
+                <div class="slider-btns">
+                    <button
+                        class="slider-btn"
+                        id="slideLeft"
+                        aria-label="Scroll left"
+                    >
+                        <svg
+                            viewBox="0 0 24 24"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        >
+                            <path d="M15 19l-7-7 7-7" />
+                        </svg>
+                    </button>
+                    <button
+                        class="slider-btn"
+                        id="slideRight"
+                        aria-label="Scroll right"
+                    >
+                        <svg
+                            viewBox="0 0 24 24"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        >
+                            <path d="M9 5l7 7-7 7" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <div class="insights-slider hide-scrollbar" id="insightSlider">
+                <!-- Card 1 -->
+                <div class="premium-card insight-card">
+                    <div class="insight-img">
+                        <img
+                            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthumbs.dreamstime.com%2Fb%2Fai-powered-quantum-circuit-design-assistance-abstract-concept-vector-illustration-computing-driven-improves-efficiency-insight-411797814.jpg&f=1&nofb=1&ipt=8f7e8d27fc30e19fa9e4a2a1a3317951a578349f7d42cef13e884613b891c0e4"
+                            alt="AI Safety"
+                        />
+                    </div>
+                    <span class="insight-tag">Research</span>
+                    <h4 class="insight-title">
+                        The Quantum Leap: Managing AI-Driven Systemic Risk
+                    </h4>
+                    <p class="insight-desc">
+                        How generative models are changing the attack surface
+                        for global finance.
+                    </p>
+                    <span class="insight-meta"
+                        >5 min read &bull; Jan 24, 2026</span
+                    >
+                </div>
+
+                <!-- Card 2 -->
+                <div class="premium-card insight-card">
+                    <div class="insight-img">
+                        <img
+                            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmarkovate.com%2Fwp-content%2Fuploads%2F2024%2F06%2F5-Key-Use-Cases-of-AI-in-Risk-Management.webp&f=1&nofb=1&ipt=fa07017a4095317dfbc04a7f16ed9865a4d043c9b2c2d511e6c7d3ba5b4ef2cc"
+                            alt="Cloud Governance"
+                        />
+                    </div>
+                    <span class="insight-tag">Policy</span>
+                    <h4 class="insight-title">
+                        Governance in the Cloud-First Era
+                    </h4>
+                    <p class="insight-desc">
+                        A guide to regulatory compliance across decentralized
+                        architectures.
+                    </p>
+                    <span class="insight-meta"
+                        >8 min read &bull; Jan 20, 2026</span
+                    >
+                </div>
+
+                <!-- Card 3 -->
+                <div class="premium-card insight-card">
+                    <div class="insight-img">
+                        <img
+                            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F026%2F996%2F623%2Fnon_2x%2Fdigital-trust-concept-icon-data-security-information-technology-trend-abstract-idea-thin-line-illustration-isolated-outline-drawing-editable-stroke-vector.jpg&f=1&nofb=1&ipt=6a0617bf4ec029d6b5de4e0abfc1864aa61ca492812469585cd0f6ae93540a20"
+                            alt="Digital Trust"
+                        />
+                    </div>
+                    <span class="insight-tag">Case Study</span>
+                    <h4 class="insight-title">
+                        Rebuilding Digital Trust Post-Breach
+                    </h4>
+                    <p class="insight-desc">
+                        Analytical framework for communication and restoration
+                        of stakeholder confidence.
+                    </p>
+                    <span class="insight-meta"
+                        >12 min read &bull; Jan 15, 2026</span
+                    >
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================
+             CTA SECTION
+        ============================================================ -->
+        <section class="cta-section" data-purpose="cta-block">
+            <div class="premium-card cta-inner">
+                <div class="cta-glow"></div>
+                <div class="cta-content">
+                    <h2 class="cta-headline font-display">Ready to Lead?</h2>
+                    <p class="cta-sub">
+                        Join 15,000+ professionals who have elevated their
+                        careers with IDR's premium curriculum.
+                    </p>
+                    <div class="cta-btns">
+                        <button class="btn-cta-primary">Apply Now</button>
+                        <button class="btn-cta-secondary">
+                            Contact Advisor
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================
+             FOOTER
+        ============================================================ -->
+        <footer class="site-footer" data-purpose="site-footer">
+            <div class="footer-grid">
+                <!-- Brand -->
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <div class="footer-logo-icon font-display">IDR</div>
+                        <span class="footer-logo-text font-display"
+                            >INSTITUTE</span
+                        >
+                    </div>
+                    <p class="footer-tagline">
+                        The global authority on digital risk, providing elite
+                        training and certification for the digital era.
+                    </p>
+                </div>
+
+                <!-- Academy -->
+                <div class="footer-col">
+                    <h5>Academy</h5>
+                    <ul>
+                        <li><a href="#">All Courses</a></li>
+                        <li><a href="#">Certifications</a></li>
+                        <li><a href="#">Labs</a></li>
+                        <li><a href="#">Scholarships</a></li>
+                    </ul>
+                </div>
+
+                <!-- Resources -->
+                <div class="footer-col">
+                    <h5>Resources</h5>
+                    <ul>
+                        <li><a href="#">Whitepapers</a></li>
+                        <li><a href="#">Case Studies</a></li>
+                        <li><a href="#">Glossary</a></li>
+                        <li><a href="#">Community</a></li>
+                    </ul>
+                </div>
+
+                <!-- Institute -->
+                <div class="footer-col">
+                    <h5>Institute</h5>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Faculty</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+
+                <!-- Legal -->
+                <div class="footer-col">
+                    <h5>Legal</h5>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookies</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="footer-copy">
+                    &copy; 2024 Institute of Digital Risk. All rights reserved.
+                </p>
+                <div class="footer-socials">
+                    <a href="#" aria-label="Twitter">&#120143;</a>
+                    <a href="#" aria-label="LinkedIn">in</a>
+                </div>
+            </div>
+        </footer>
+
+        <!-- ============================================================
+             FLOATING ACTION BUTTON
+        ============================================================ -->
+        <button
+            class="fab"
+            data-purpose="chat-button"
+            aria-label="Talk to Admission"
+        >
+            <svg
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+            >
+                <path
+                    d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"
+                />
+            </svg>
+            <span class="fab-tooltip">Talk to Admission</span>
+        </button>
     </body>
 </html>
