@@ -182,18 +182,13 @@ button {
 }
 
 .nav-logo-icon {
-    width: 32px;
-    height: 32px;
-    background-color: var(--brand-orange);
-    border-radius: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: "Outfit", sans-serif;
-    font-weight: 700;
-    font-style: italic;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
     color: #fff;
-    font-size: 8px;
+    font-size: 20px;
     flex-shrink: 0;
 }
 
@@ -1203,18 +1198,15 @@ button {
 }
 
 .footer-logo-icon {
-    width: 32px;
-    height: 32px;
-    background-color: var(--brand-orange);
     border-radius: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: "Outfit", sans-serif;
-    font-weight: 700;
-    font-style: italic;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+
     color: #fff;
-    font-size: 8px;
+    font-size: 20px;
     flex-shrink: 0;
 }
 
