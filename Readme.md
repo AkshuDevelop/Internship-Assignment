@@ -109,15 +109,3 @@ idr-website/
 ```
 
 ---
-
-## Future Improvements
-
-Possible improvements if the project were extended:
-
-* Multi-page architecture
-* Backend integration for contact form
-* Accessibility enhancements (ARIA)
-* Dark mode support
-* Animation and micro-interactions
-
----
