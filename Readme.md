@@ -112,24 +112,6 @@ idr-website/
 
 ---
 
-## Running the Project
-
-Clone the repository and open the project locally.
-
-```bash
-git clone https://github.com/yourusername/idr-website.git
-cd idr-website
-```
-
-Then simply open:
-
-```
-index.html
-```
-
-in your browser.
-
----
 
 ## Future Improvements
 
@@ -142,9 +124,3 @@ Possible improvements if the project were extended:
 * Animation and micro-interactions
 
 ---
-
-## Author
-
-Created as part of a **Frontend Internship Assignment**.
-
-GitHub: https://github.com/yourusername
