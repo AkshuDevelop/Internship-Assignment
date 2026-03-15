@@ -20,22 +20,20 @@ The project includes:
 
 ## Logo Design
 
-The logo is designed using a **geometric cube-inspired icon** to represent:
+The logo consists of a **geometric form of a cube** that is a combination of colors such as **orange, black, and white**. The cube represents the **systems and architecture used in digital risk, cybersecurity, and AI governance**.
 
-* Structure
-* Risk frameworks
-* System resilience
+The logo is **simple and minimalistic**. It is a representation of a **3D object with subtle depth**, which reflects the institute’s dedication to **simplicity, discipline, and structured learning**. The design also represents the institute’s objective of **reducing distractions and emphasizing the quality and correctness of its curriculum**.
+
+The geometric cube also represents the institute’s commitment to **working with the latest technologies and tools** while maintaining a **robust and structured learning environment** for its students.
 
 ### Design Elements
 
-* **Primary colors:** Orange, Black, White
-* **Style:** Minimal, professional, technology-focused
+* **Primary colors:** Orange, Black, White  
+* **Style:** Minimal, professional, technology-focused  
 * **Variants included:**
 
   * Icon-only version
   * Icon + text ("Institute of Digital Risk")
-
-The cube-inspired geometry reflects **structured digital systems and risk architecture**, aligning with the institute's focus on cybersecurity and technology risk.
 
 ---
 
@@ -111,7 +109,6 @@ idr-website/
 ```
 
 ---
-
 
 ## Future Improvements
 

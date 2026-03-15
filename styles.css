@@ -185,10 +185,9 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: "Inter", sans-serif;
-    font-weight: 900;
     color: #fff;
-    font-size: 20px;
+    width: 35px;
+    height: 40px;
     flex-shrink: 0;
 }
 
@@ -587,12 +586,12 @@ button {
     transition:
         transform 0.2s,
         box-shadow 0.2s;
-    box-shadow: 0 20px 25px -5px rgba(59, 130, 246, 0.2);
+    
 }
 
 .btn-blue:hover {
     transform: translateY(-2px);
-    box-shadow: 0 25px 30px -5px rgba(59, 130, 246, 0.3);
+    box-shadow: 0 25px 30px -5px rgba(255, 87, 3, 0.3);
 }
 
 .btn-white {
@@ -1202,11 +1201,6 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: "Inter", sans-serif;
-    font-weight: 900;
-
-    color: #fff;
-    font-size: 20px;
     flex-shrink: 0;
 }
 
